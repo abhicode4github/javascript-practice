@@ -1,0 +1,15 @@
+20.Write a function to reverse the order of elements in an array.
+don't Use reverse() Method 
+ex:- var arr = ['a','b','c','d','e','f']
+			
+		output = ['f','e','d','c','b','a']
+
+  // solution 
+  
+  function revstr(){
+    var arr=prompt("enter the elements");
+    var arr1=arr.split("");
+    var arr2=arr1.reverse();
+    console.log(arr2);
+}
+revstr();
