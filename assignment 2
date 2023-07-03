@@ -49,3 +49,31 @@ function toupper(string1){
 }
  var string1="learn javaScript from brAin mentors";
 toupper(string1);
+
+Question 3 .
+
+Write a JS Function to validate Phone Number 
+Only number and must be 10 digit long
+
+Answer:-
+
+function valid(x){
+    if(isNaN(x)){
+        console.log("Not a Number ");
+        return 0;
+    }
+    x=x.toString();
+    if(x.length != 10){
+        console.log("wrong number");
+        return 0;
+    }
+    console.log("Success");
+}
+
+valid('995858s844');
+
+
+// Output
+
+VM2194:3 Not a Number 
+
