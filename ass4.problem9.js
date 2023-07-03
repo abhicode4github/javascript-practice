@@ -1,4 +1,4 @@
-Question:-
+Question 9.
 
 Write a function to find the intersection of two arrays (common elements between the two arrays).
 
@@ -28,6 +28,6 @@ var arr2 = [5,1,4,7,3,1];
 intersect(arr1,arr2);
 
 
-Output:-
+Output
 
 VM92:12 (3) [4, 1, 7]
